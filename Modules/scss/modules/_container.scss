@@ -1,5 +1,7 @@
+@use 'submodules/mixin'as m;
+
 .container {
-    @include flex-box(row-reverse, space-around);
+    @include m.flex-box(row-reverse, space-around);
     width: 600px;
     height: 400px;
     background-color: #eaeaea;
